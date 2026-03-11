@@ -1,0 +1,97 @@
+:root {
+  --white: #FFF;
+  --black: #000;
+  --font-color-base: #d4c5a0;
+  --font-color-alt: #aaa;
+  --background: #282828;
+  --sub-bg: #313b47;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+/* Base styles */
+body {
+  background: var(--background);
+  color: var(--font-color-base);
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 4rem;
+}
+ol,ul {
+  list-style: none;
+  display: flex;
+}
+li {
+  padding: 0 20px;
+  color: var(--font-color-base);
+}
+a {
+  text-decoration: none;
+  color: var(--font-color-base);
+  cursor: pointer;
+}
+a:hover {
+  color: var(--white);
+}
+a:focus {
+  outline: 3px solid #FFA500;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+img {
+  display: block;
+  width: 100%;
+}
+.btn,
+.btn-box {
+  background: var(--black);
+  color: var(--white);
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 15px 20px;
+  font-size: 14px;
+  margin: 40px 0 0 30px;
+  cursor: pointer;
+}
+.btn:hover {
+  color: var(--font-color-base);
+}
+.btn:focus {
+  outline: 3px solid #FFA500;
+  outline-offset: 2px;
+}
+
+.btn-nav {
+  margin: auto;
+}
