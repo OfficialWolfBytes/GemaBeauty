@@ -179,4 +179,7 @@
     /* allow horizontal scroll on small screens */
     scroll-snap-type: x mandatory;
   }
+  .review-item {
+    width: 80%;
+  }
 }
